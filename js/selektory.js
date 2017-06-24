@@ -1,6 +1,6 @@
 'use strict';
 
-
+//Funkcja document.ready()-wersja skrócona
 $(function() {
 //	pobieramy element po znaczniku
 	var paragraf = $('p');
@@ -15,4 +15,4 @@ $(function() {
 	console.log(paragrafDwa);
 	
 	
-})
+});
