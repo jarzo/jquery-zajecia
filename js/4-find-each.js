@@ -12,9 +12,11 @@ $(function(){
 	
 	//Pętla each dodająca do paragrafów klasę z kolejnym numerem
 	$("p").each(function(index){
+		
 		$(this).addClass("paragraf-" + index);
+		
 		console.log(jQuery(this) );
-	})
+	});
 
 
 
